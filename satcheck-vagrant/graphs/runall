@@ -1,0 +1,5 @@
+#!/bin/bash
+java parser results_nidd_opt results_others results_sat results_tsosat
+for i in *cmd
+do gnuplot $i
+done

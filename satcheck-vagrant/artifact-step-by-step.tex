@@ -1,0 +1,250 @@
+%-----------------------------------------------------------------------------
+%
+%               Template for sigplanconf LaTeX Class
+%
+% Name:         sigplanconf-template.tex
+%
+% Purpose:      A template for sigplanconf.cls, which is a LaTeX 2e class
+%               file for SIGPLAN conference proceedings.
+%
+% Guide:        Refer to "Author's Guide to the ACM SIGPLAN Class,"
+%               sigplanconf-guide.pdf
+%
+% Author:       Paul C. Anagnostopoulos
+%               Windfall Software
+%               978 371-2316
+%               paul@windfall.com
+%
+% Created:      15 February 2005
+%
+%-----------------------------------------------------------------------------
+
+
+\documentclass[10pt,nocopyrightspace,preprint]{sigplanconf}
+
+%\usepackage{SIunits}            % typset units correctly
+%\usepackage{courier}            % standard fixed width font
+\usepackage{times}
+\usepackage[scaled]{helvet} % see www.ctan.org/get/macros/latex/required/psnfss/psnfss2e.pdf
+\usepackage{url}                  % format URLs
+\usepackage{listings}          % format code
+\usepackage{enumitem}      % adjust spacing in enums
+\sloppy
+\usepackage{booktabs}
+\usepackage[colorlinks=true,allcolors=blue,breaklinks,draft=false]{hyperref}
+% hyperlinks, including DOIs and URLs in bibliography
+% known bug: http://tex.stackexchange.com/questions/1522/pdfendlink-ended-up-in-different-nesting-level-than-pdfstartlink
+\newcommand{\doi}[1]{doi:~\href{http://dx.doi.org/#1}{\Hurl{#1}}}   % print a hyperlinked DOI
+
+
+% The following \documentclass options may be useful:
+%
+% 10pt          To set in 10-point type instead of 9-point.
+% 11pt          To set in 11-point type instead of 9-point.
+% authoryear    To obtain author/year citation style instead of numeric.
+
+\usepackage{amsmath, amsthm, amssymb}
+\usepackage{graphicx}
+\usepackage{xspace}
+
+\newtheorem{thm}{Theorem}[section]
+
+
+\usepackage{lmodern}
+\usepackage{color}
+\usepackage{textcomp}
+\definecolor{listinggray}{gray}{0.9}
+\definecolor{lbcolor}{rgb}{0.9,0.9,0.9}
+\lstset{
+	% backgroundcolor=\color{lbcolor},
+	% rulecolor=,
+	% aboveskip={1.5\baselineskip},
+	% extendedchars=true,
+	tabsize=3,
+	language=C++,
+	basicstyle=\ttfamily\scriptsize,
+	upquote=true,
+	columns=fixed,
+	showstringspaces=false,
+	breaklines=true,
+	prebreak = \raisebox{0ex}[0ex][0ex]{\ensuremath{\hookleftarrow}},
+	% frame=single,
+	showtabs=false,
+	showspaces=false,
+	showstringspaces=false,
+	identifierstyle=\ttfamily,
+	keywordstyle=\color[rgb]{0,0,1},
+	commentstyle=\color[rgb]{0.133,0.545,0.133},
+	stringstyle=\color[rgb]{0.627,0.126,0.941},
+	numbers=left,
+	numberstyle=\tiny,
+	numbersep=8pt,
+	escapeinside={/*@}{@*/}
+}
+
+\newcommand{\SC}[0]{\ensuremath{\xrightarrow{\textit{sc}}}\xspace}
+\newcommand{\rf}[0]{\ensuremath{\xrightarrow{\textit{rf}}}\xspace}
+
+%% Not used yet
+% \usepackage{times}
+% \usepackage{latexsym}
+% \usepackage{amsfonts}
+% \usepackage{amsthm}
+% \usepackage{txfonts}
+% \usepackage{url}
+% \usepackage{subfigure}
+
+% \usepackage{bbm}
+% \usepackage{stfloats}
+
+\newcommand{\code}[1]{\text{\tt #1}}
+\newcommand{\codebf}[1]{\text{\tt\bfseries #1}}
+
+\newcommand{\TODO}[0]{\textbf{TODO}\xspace}
+\newcommand{\todo}[1]{{\bf [[#1]]}}
+%\newcommand{\todo}[1]{}
+\newcommand{\comment}[1]{}
+\newcommand{\st}[0]{st\xspace}
+\newcommand{\expr}[0]{expr\xspace}
+\newcommand{\naive}[0]{na\"{i}ve\xspace}
+\newcommand{\Naive}[0]{Na\"{i}ve\xspace}
+\newcommand{\naively}[0]{na\"{i}vely\xspace}
+\newcommand{\Naively}[0]{Na\"{i}vely\xspace}
+\newcommand{\tool}[0]{SATCheck\xspace}
+\newcommand{\Tool}[0]{SATCheck\xspace}
+\newcommand{\tuple}[1]{\ensuremath \langle #1 \rangle}
+\newcommand{\size}[1]{\ensuremath \left| #1 \right|}
+\newcommand{\roundup}[1]{\ensuremath \lceil #1 \rceil}
+
+\begin{document}
+
+\conferenceinfo{OOPSLA '15}{date, City.} 
+\copyrightyear{2015} 
+\copyrightdata{[to be supplied]} 
+
+\sloppy
+
+\title{Step-by-Step Guide for SATCheck Artifact}
+\authorinfo{Patrick Lam and Brian Demsky}{}{}
+
+\maketitle
+
+The Getting Started guide explains how to reproduce the results in the
+paper, up to the generation of the graphs. This document provides more
+information about the parts of the artifact and how they specifically
+connect to the paper.
+
+\section{Example}
+The motivating example corresponds to the {\tt linuxlock} example with
+problem size 1. Recall that you use {\tt bench.sh} to run a benchmark;
+to only run problem size 1, change {\tt SIZES} in the {\tt benchmark-config.sh} file
+in the benchmark directory.
+
+We'll discuss each part of the example below.
+
+The example discusses the SATCheck main loop. The code for the main loop is in
+{\tt model.cc}. Execution points are implemented in the {\tt
+  ExecPoint} class, found in {\tt execpoint.cc}.
+
+\section{Event Graph \& Encoding}
+If you add {\tt DUMP\_EVENT\_GRAPHS} to {\tt config.h}, you will get
+the event graphs in {\tt .dot} format when you run a program under
+SATCheck. The graphs in the paper have been trimmed and we've manually
+extracted subgraphs to better illustrate our points.
+
+The event graph is stored in memory as a tree
+of {\tt EPRecord} objects, manipulated by the {\tt ConstGen} class. 
+We implemented the value set analysis and encodings in the {\tt
+  StoreLoadSet} class.
+
+Section 4 in the paper is a fairly literal description of the {\tt
+  ConstGen} class, and we don't think that much needs to be said here.
+Note that remaining goals are stored in the {\tt goalset} field of
+{\tt ConstGen}. These goals search for unobserved behaviours.
+
+\section{Exploring}
+The schedule builder is found in the {\tt ScheduleBuilder} class. That
+class includes the construction of the wait pairs, which modifies the
+execution's schedule for the next concrete execution to be visited.
+
+\section{Extensions}
+\paragraph{Field support}
+Most of the work to support fields happens in the front-end; see
+Section~\ref{sec:frontend} in this document for information on the
+front-end. Our handlers for reads and writes ({\tt LoadHandler} and
+{\tt StoreHandler} respectively) account for field accesses and
+generate the appropriate instrumentation, which the backend handles.
+
+\paragraph{Sharing between Instances of Uninterpreted Functions.}
+Internally, our instrumentation identifies the uninterpreted function
+instance using the {\tt MC2\_function\_id()} call. The frontend
+assigns a unique function identifier for each static point in the code
+that generates an uninterpreted function annotation. In the backend,
+uninterpreted functions are handled in {\tt MCExecution::function.}
+
+\paragraph{Incremental Solving.} 
+The SAT encoding reuse code can be found in {\tt ConstGen::canReuseEncoding()}.
+
+\paragraph{TSO Extension.} As described in the Getting Started guide, enable
+TSO by defining it in {\tt config.h}. The Makefile creates two copies of the runtime library:
+one for SC and one for TSO. The implementation of TSO is scattered around
+the codebase, but {\tt constgen.cc} generates key TSO constraints.
+
+\section{Test Schedule Generation}
+Enabling the {\tt SUPPORT\_MOD\_ORDER\_DUMP} option in {\tt config.h} will
+expose schedule graphs in {\tt \.dot} format; see {\tt MCExecution::dumpExecution} 
+in {\tt model.cc}. Generating test case specifications would be analogous to
+{\tt dumpExecution}'s implementation.
+
+\section{Instrumentation}
+\label{sec:frontend}
+The Clang front-end lives in the {\tt clang} subdirectory. It takes an
+unannotated C file and outputs annotated C code to standard output (as
+invoked by {\tt bench.sh}).  It assumes that the C file performs
+operations on shared memory using calls to {\tt load\_NN}, {\tt
+  store\_NN}, and {\tt rmw\_NN}; the primitives are defined in {\tt
+  include/libinterface.h}.
+
+When the AST traversal encounters a shared memory access, it records the
+call and inserts instrumentation; see, for example, the {\tt
+  LoadHandler} code in {\tt clang/src/add\_mc2\_annotations.cpp}. When
+the frontend inserts instrumentation, it also records the variables
+being instrumented and, in a second pass, adds additional
+instrumentation to indicate uninterpreted functions to the model
+checker.
+
+\paragraph{Caveats.} (1) We assume that programs terminate under unfair schedules. 
+If you have a spin loop for which this is not true, you need to
+manually insert {\tt MC2\_yield()} calls where control flows back to
+the top of a loop.  (2) Our front-end also does not get correct
+information about source locations for macros.  As a result, it will
+not annotate uses of variables of type {\tt bool} (which is
+implemented as a macro).
+
+\section{Evaluation}
+The Getting Started guide explained how to reproduce our evaluation.
+One note: the CAS spinlock example in the paper corresponds to the
+{\tt linuxlock} example in the codebase.
+
+The benchmark runs work as follows. The {\tt bench.sh} script is shared among
+scripts; it relies on {\tt benchmark-config.sh} to specify behaviour. 
+If front-end compilation is appropriate, it runs the Clang frontend on the
+unannotated file to generate an annotated file. Then the script iterates on the
+requested sizes ({\tt \$SIZES} for non-TSO, {\tt \$SIZES\_TSO} for TSO),
+compiles the benchmark with the command-line flag {\tt -DPROBLEMSIZE}, and records
+the time to the {\tt log} file and the output to the {\tt logall} file. We then created
+a quick and dirty Java parser to read the {\tt log} files as generated by
+{\tt bench.sh} and create gnuplot files.
+
+The expectations for each benchmark are 1) that its main function is
+called {\tt user\_main()}, and 2) that it uses the shared memory
+access functions which we define in {\tt libinterface.h}. Apart from
+that, benchmarks should use the standard C11 thread library.  Our {\tt
+  bench.sh} script then compiles the benchmark against our {\tt
+  libmodel.so} shared library, which contains its own {\tt main()}
+function to explore the benchmark's behaviours as described as ``the SATCheck main loop'' in the paper.
+
+We've included scripts for CDSChecker, Nidhugg, and CheckFence, but we did 
+not package them as part of our evalution.
+
+\end{document}

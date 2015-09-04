@@ -1,0 +1,1050 @@
+nohup: ignoring input
+cdschecker
+cdschecker/dekker
+size= 1
+******* Model-checking complete: *******
+Number of complete, bug-free executions: 4
+Number of redundant executions: 11
+Number of buggy executions: 0
+Number of infeasible executions: 0
+Total executions: 15
+
+real	0m0.053s
+user	0m0.000s
+sys	0m0.005s
+size= 2
+******* Model-checking complete: *******
+Number of complete, bug-free executions: 71
+Number of redundant executions: 239
+Number of buggy executions: 0
+Number of infeasible executions: 0
+Total executions: 310
+
+real	0m0.062s
+user	0m0.004s
+sys	0m0.015s
+size= 3
+******* Model-checking complete: *******
+Number of complete, bug-free executions: 1344
+Number of redundant executions: 4548
+Number of buggy executions: 0
+Number of infeasible executions: 0
+Total executions: 5892
+
+real	0m0.445s
+user	0m0.335s
+sys	0m0.065s
+size= 4
+******* Model-checking complete: *******
+Number of complete, bug-free executions: 26797
+Number of redundant executions: 90673
+Number of buggy executions: 0
+Number of infeasible executions: 0
+Total executions: 117470
+
+real	0m10.136s
+user	0m9.264s
+sys	0m0.830s
+size= 5
+******* Model-checking complete: *******
+Number of complete, bug-free executions: 551041
+Number of redundant executions: 1864446
+Number of buggy executions: 0
+Number of infeasible executions: 0
+Total executions: 2415487
+
+real	4m14.536s
+user	3m52.716s
+sys	0m22.066s
+size= 6
+******* Model-checking complete: *******
+Number of complete, bug-free executions: 11558882
+Number of redundant executions: 39109683
+Number of buggy executions: 0
+Number of infeasible executions: 0
+Total executions: 50668565
+
+real	106m33.575s
+user	97m35.949s
+sys	9m6.161s
+cdschecker/linuxlock
+size= 1
+******* Model-checking complete: *******
+Number of complete, bug-free executions: 4
+Number of redundant executions: 0
+Number of buggy executions: 0
+Number of infeasible executions: 0
+Total executions: 4
+
+real	0m0.042s
+user	0m0.000s
+sys	0m0.003s
+size= 2
+******* Model-checking complete: *******
+Number of complete, bug-free executions: 26
+Number of redundant executions: 0
+Number of buggy executions: 0
+Number of infeasible executions: 0
+Total executions: 26
+
+real	0m0.044s
+user	0m0.007s
+sys	0m0.000s
+size= 3
+******* Model-checking complete: *******
+Number of complete, bug-free executions: 192
+Number of redundant executions: 0
+Number of buggy executions: 0
+Number of infeasible executions: 0
+Total executions: 192
+
+real	0m0.066s
+user	0m0.010s
+sys	0m0.000s
+size= 4
+******* Model-checking complete: *******
+Number of complete, bug-free executions: 1500
+Number of redundant executions: 0
+Number of buggy executions: 0
+Number of infeasible executions: 0
+Total executions: 1500
+
+real	0m0.117s
+user	0m0.064s
+sys	0m0.008s
+size= 5
+******* Model-checking complete: *******
+Number of complete, bug-free executions: 12092
+Number of redundant executions: 0
+Number of buggy executions: 0
+Number of infeasible executions: 0
+Total executions: 12092
+
+real	0m0.596s
+user	0m0.480s
+sys	0m0.076s
+size= 6
+******* Model-checking complete: *******
+Number of complete, bug-free executions: 99442
+Number of redundant executions: 0
+Number of buggy executions: 0
+Number of infeasible executions: 0
+Total executions: 99442
+
+real	0m5.249s
+user	0m4.727s
+sys	0m0.481s
+size= 7
+******* Model-checking complete: *******
+Number of complete, bug-free executions: 829168
+Number of redundant executions: 0
+Number of buggy executions: 0
+Number of infeasible executions: 0
+Total executions: 829168
+
+real	0m48.566s
+user	0m43.742s
+sys	0m4.834s
+size= 8
+******* Model-checking complete: *******
+Number of complete, bug-free executions: 6984234
+Number of redundant executions: 0
+Number of buggy executions: 0
+Number of infeasible executions: 0
+Total executions: 6984234
+
+real	7m27.804s
+user	6m46.041s
+sys	0m42.246s
+size= 9
+******* Model-checking complete: *******
+Number of complete, bug-free executions: 59287740
+Number of redundant executions: 0
+Number of buggy executions: 0
+Number of infeasible executions: 0
+Total executions: 59287740
+
+real	69m38.747s
+user	63m11.885s
+sys	6m31.754s
+cdschecker/linuxrwlock
+size= 1
+******* Model-checking complete: *******
+Number of complete, bug-free executions: 6
+Number of redundant executions: 0
+Number of buggy executions: 0
+Number of infeasible executions: 0
+Total executions: 6
+
+real	0m0.040s
+user	0m0.000s
+sys	0m0.004s
+size= 2
+******* Model-checking complete: *******
+Number of complete, bug-free executions: 70
+Number of redundant executions: 0
+Number of buggy executions: 0
+Number of infeasible executions: 0
+Total executions: 70
+
+real	0m0.042s
+user	0m0.006s
+sys	0m0.000s
+size= 3
+******* Model-checking complete: *******
+Number of complete, bug-free executions: 924
+Number of redundant executions: 0
+Number of buggy executions: 0
+Number of infeasible executions: 0
+Total executions: 924
+
+real	0m0.093s
+user	0m0.032s
+sys	0m0.011s
+size= 4
+******* Model-checking complete: *******
+Number of complete, bug-free executions: 12870
+Number of redundant executions: 0
+Number of buggy executions: 0
+Number of infeasible executions: 0
+Total executions: 12870
+
+real	0m0.692s
+user	0m0.578s
+sys	0m0.076s
+size= 5
+******* Model-checking complete: *******
+Number of complete, bug-free executions: 184756
+Number of redundant executions: 0
+Number of buggy executions: 0
+Number of infeasible executions: 0
+Total executions: 184756
+
+real	0m11.220s
+user	0m10.140s
+sys	0m1.053s
+size= 6
+******* Model-checking complete: *******
+Number of complete, bug-free executions: 2704156
+Number of redundant executions: 0
+Number of buggy executions: 0
+Number of infeasible executions: 0
+Total executions: 2704156
+
+real	3m5.117s
+user	2m47.703s
+sys	0m17.581s
+size= 7
+******* Model-checking complete: *******
+Number of complete, bug-free executions: 40116600
+Number of redundant executions: 0
+Number of buggy executions: 0
+Number of infeasible executions: 0
+Total executions: 40116600
+
+real	52m2.065s
+user	47m6.708s
+sys	4m58.997s
+cdschecker/msqueue
+size= 1
+******* Model-checking complete: *******
+Number of complete, bug-free executions: 4
+Number of redundant executions: 1
+Number of buggy executions: 0
+Number of infeasible executions: 0
+Total executions: 5
+
+real	0m0.042s
+user	0m0.000s
+sys	0m0.003s
+size= 2
+******* Model-checking complete: *******
+Number of complete, bug-free executions: 38
+Number of redundant executions: 10
+Number of buggy executions: 0
+Number of infeasible executions: 0
+Total executions: 48
+
+real	0m0.046s
+user	0m0.003s
+sys	0m0.003s
+size= 3
+******* Model-checking complete: *******
+Number of complete, bug-free executions: 347
+Number of redundant executions: 68
+Number of buggy executions: 0
+Number of infeasible executions: 0
+Total executions: 415
+
+real	0m0.106s
+user	0m0.035s
+sys	0m0.012s
+size= 4
+******* Model-checking complete: *******
+Number of complete, bug-free executions: 3080
+Number of redundant executions: 513
+Number of buggy executions: 0
+Number of infeasible executions: 0
+Total executions: 3593
+
+real	0m0.421s
+user	0m0.352s
+sys	0m0.028s
+size= 5
+******* Model-checking complete: *******
+Number of complete, bug-free executions: 26881
+Number of redundant executions: 3898
+Number of buggy executions: 0
+Number of infeasible executions: 0
+Total executions: 30779
+
+real	0m3.952s
+user	0m3.572s
+sys	0m0.325s
+size= 6
+******* Model-checking complete: *******
+Number of complete, bug-free executions: 231754
+Number of redundant executions: 29589
+Number of buggy executions: 0
+Number of infeasible executions: 0
+Total executions: 261343
+
+real	0m39.462s
+user	0m35.785s
+sys	0m3.680s
+size= 7
+******* Model-checking complete: *******
+Number of complete, bug-free executions: 1978683
+Number of redundant executions: 224473
+Number of buggy executions: 0
+Number of infeasible executions: 0
+Total executions: 2203156
+
+real	6m28.667s
+user	5m54.810s
+sys	0m34.269s
+size= 8
+******* Model-checking complete: *******
+Number of complete, bug-free executions: 16757672
+Number of redundant executions: 1702629
+Number of buggy executions: 0
+Number of infeasible executions: 0
+Total executions: 18460301
+
+real	62m26.471s
+user	57m3.639s
+sys	5m27.181s
+cdschecker/path.sh
+./runcds: line 8: cd: cdschecker/path.sh: Not a directory
+./runcds: line 9: ./bench.sh: No such file or directory
+cdschecker/seqlock
+size= 1
+******* Model-checking complete: *******
+Number of complete, bug-free executions: 49
+Number of redundant executions: 30
+Number of buggy executions: 0
+Number of infeasible executions: 0
+Total executions: 79
+
+real	0m0.050s
+user	0m0.003s
+sys	0m0.003s
+size= 2
+******* Model-checking complete: *******
+Number of complete, bug-free executions: 6724
+Number of redundant executions: 3451
+Number of buggy executions: 0
+Number of infeasible executions: 0
+Total executions: 10175
+
+real	0m0.496s
+user	0m0.372s
+sys	0m0.072s
+size= 3
+******* Model-checking complete: *******
+Number of complete, bug-free executions: 1227664
+Number of redundant executions: 601240
+Number of buggy executions: 0
+Number of infeasible executions: 0
+Total executions: 1828904
+
+real	1m44.625s
+user	1m34.897s
+sys	0m9.811s
+size= 4
+******* Model-checking complete: *******
+Number of complete, bug-free executions: 251856900
+Number of redundant executions: 120415569
+Number of buggy executions: 0
+Number of infeasible executions: 0
+Total executions: 372272469
+
+real	447m16.903s
+user	407m29.305s
+sys	40m19.193s
+checkfence
+checkfence/dekker
+size=1
+
+real	0m1.228s
+user	0m0.145s
+sys	0m0.009s
+With loop bounds
+
+real	0m0.372s
+user	0m0.073s
+sys	0m0.019s
+size=2
+
+real	0m2.532s
+user	0m0.633s
+sys	0m0.066s
+With loop bounds
+
+real	0m0.750s
+user	0m0.280s
+sys	0m0.020s
+size=3
+
+real	0m5.013s
+user	0m2.007s
+sys	0m0.066s
+With loop bounds
+
+real	0m1.331s
+user	0m0.762s
+sys	0m0.024s
+size=4
+
+real	0m9.310s
+user	0m4.833s
+sys	0m0.154s
+With loop bounds
+
+real	0m2.183s
+user	0m1.547s
+sys	0m0.016s
+size=5
+
+real	0m16.320s
+user	0m9.906s
+sys	0m0.341s
+With loop bounds
+
+real	0m3.577s
+user	0m2.767s
+sys	0m0.048s
+size=6
+
+real	0m28.506s
+user	0m18.228s
+sys	0m0.429s
+With loop bounds
+
+real	0m6.203s
+user	0m4.402s
+sys	0m0.092s
+size=7
+
+real	0m44.197s
+user	0m31.533s
+sys	0m0.679s
+With loop bounds
+
+real	0m8.165s
+user	0m6.972s
+sys	0m0.080s
+size=8
+
+real	1m4.253s
+user	0m50.949s
+sys	0m0.751s
+With loop bounds
+
+real	0m11.447s
+user	0m10.163s
+sys	0m0.209s
+size=9
+
+real	1m32.957s
+user	1m17.031s
+sys	0m1.054s
+With loop bounds
+
+real	0m15.806s
+user	0m14.461s
+sys	0m0.173s
+size=10
+
+real	2m13.247s
+user	1m54.122s
+sys	0m1.399s
+With loop bounds
+
+real	0m20.217s
+user	0m18.618s
+sys	0m0.233s
+checkfence/linuxlock
+size=1
+
+real	0m0.307s
+user	0m0.020s
+sys	0m0.005s
+With loop bounds
+
+real	0m0.172s
+user	0m0.008s
+sys	0m0.010s
+size=2
+
+real	0m0.548s
+user	0m0.066s
+sys	0m0.013s
+With loop bounds
+
+real	0m0.218s
+user	0m0.038s
+sys	0m0.004s
+size=3
+
+real	0m0.863s
+user	0m0.119s
+sys	0m0.021s
+With loop bounds
+
+real	0m0.270s
+user	0m0.056s
+sys	0m0.012s
+size=4
+
+real	0m1.190s
+user	0m0.192s
+sys	0m0.034s
+With loop bounds
+
+real	0m0.362s
+user	0m0.081s
+sys	0m0.020s
+size=5
+
+real	0m1.522s
+user	0m0.326s
+sys	0m0.042s
+With loop bounds
+
+real	0m0.357s
+user	0m0.135s
+sys	0m0.008s
+size=6
+
+real	0m1.912s
+user	0m0.498s
+sys	0m0.042s
+With loop bounds
+
+real	0m0.421s
+user	0m0.181s
+sys	0m0.017s
+size=7
+
+real	0m2.311s
+user	0m0.760s
+sys	0m0.041s
+With loop bounds
+
+real	0m0.470s
+user	0m0.264s
+sys	0m0.013s
+size=8
+
+real	0m3.088s
+user	0m1.099s
+sys	0m0.072s
+With loop bounds
+
+real	0m0.587s
+user	0m0.344s
+sys	0m0.016s
+size=9
+
+real	0m3.878s
+user	0m1.561s
+sys	0m0.070s
+With loop bounds
+
+real	0m0.659s
+user	0m0.430s
+sys	0m0.013s
+size=10
+
+real	0m4.493s
+user	0m2.054s
+sys	0m0.104s
+With loop bounds
+
+real	0m0.890s
+user	0m0.629s
+sys	0m0.044s
+size=15
+
+real	0m11.952s
+user	0m8.092s
+sys	0m0.212s
+With loop bounds
+
+real	0m2.283s
+user	0m2.040s
+sys	0m0.024s
+size=20
+
+real	0m30.188s
+user	0m24.935s
+sys	0m0.428s
+With loop bounds
+
+real	0m3.796s
+user	0m3.356s
+sys	0m0.056s
+size=30
+
+real	2m34.811s
+user	2m26.358s
+sys	0m1.190s
+With loop bounds
+
+real	0m21.269s
+user	0m20.859s
+sys	0m0.184s
+size=40
+
+real	8m41.107s
+user	8m29.169s
+sys	0m2.688s
+With loop bounds
+
+real	1m17.337s
+user	1m16.718s
+sys	0m0.288s
+size=50
+
+real	12m28.425s
+user	12m13.751s
+sys	0m3.508s
+With loop bounds
+
+real	0m25.295s
+user	0m24.831s
+sys	0m0.357s
+size=60
+
+real	12m29.495s
+user	12m14.421s
+sys	0m3.644s
+With loop bounds
+
+real	0m25.852s
+user	0m25.374s
+sys	0m0.357s
+checkfence/linuxrwlock
+bias set to 100
+size=1
+
+real	0m0.356s
+user	0m0.050s
+sys	0m0.011s
+Hard loop bounds
+
+real	0m0.214s
+user	0m0.039s
+sys	0m0.009s
+bias set to 100
+size=2
+
+real	0m0.815s
+user	0m0.157s
+sys	0m0.013s
+Hard loop bounds
+
+real	0m0.362s
+user	0m0.110s
+sys	0m0.005s
+bias set to 100
+size=3
+
+real	0m1.331s
+user	0m0.372s
+sys	0m0.038s
+Hard loop bounds
+
+real	0m0.517s
+user	0m0.210s
+sys	0m0.012s
+bias set to 100
+size=4
+
+real	0m2.186s
+user	0m0.754s
+sys	0m0.033s
+Hard loop bounds
+
+real	0m0.758s
+user	0m0.358s
+sys	0m0.021s
+bias set to 100
+size=5
+
+real	0m3.313s
+user	0m1.384s
+sys	0m0.081s
+Hard loop bounds
+
+real	0m1.092s
+user	0m0.588s
+sys	0m0.044s
+bias set to 100
+size=6
+
+real	0m5.162s
+user	0m2.561s
+sys	0m0.132s
+Hard loop bounds
+
+real	0m1.411s
+user	0m0.860s
+sys	0m0.040s
+bias set to 100
+size=7
+
+real	0m7.226s
+user	0m4.072s
+sys	0m0.081s
+Hard loop bounds
+
+real	0m1.979s
+user	0m1.432s
+sys	0m0.016s
+bias set to 100
+size=8
+
+real	0m9.635s
+user	0m5.780s
+sys	0m0.157s
+Hard loop bounds
+
+real	0m2.485s
+user	0m1.790s
+sys	0m0.077s
+bias set to 100
+size=9
+
+real	0m13.589s
+user	0m8.868s
+sys	0m0.225s
+Hard loop bounds
+
+real	0m3.478s
+user	0m2.725s
+sys	0m0.040s
+bias set to 100
+size=10
+
+real	0m17.250s
+user	0m11.839s
+sys	0m0.229s
+Hard loop bounds
+
+real	0m4.682s
+user	0m3.779s
+sys	0m0.072s
+bias set to 100
+size=15
+
+real	6m35.344s
+user	6m24.460s
+sys	0m0.961s
+Hard loop bounds
+
+real	0m13.661s
+user	0m12.326s
+sys	0m0.188s
+bias set to 100
+size=20
+
+real	63m18.878s
+user	63m0.778s
+sys	0m4.541s
+Hard loop bounds
+
+real	14m53.050s
+user	14m51.587s
+sys	0m0.865s
+bias set to 100
+size=30
+failed to create trace for T0.bsc due to insufficient/incorrect annotations
+
+real	78m5.353s
+user	77m47.741s
+sys	0m4.685s
+Hard loop bounds
+failed to create trace for T0.bsc due to insufficient/incorrect annotations
+
+real	14m34.772s
+user	14m34.657s
+sys	0m0.897s
+checkfence/msqueue
+size=1
+
+real	0m1.057s
+user	0m0.269s
+sys	0m0.025s
+With loop bounds
+
+real	0m0.408s
+user	0m0.146s
+sys	0m0.016s
+size=2
+
+real	0m2.991s
+user	0m1.246s
+sys	0m0.085s
+With loop bounds
+
+real	0m0.881s
+user	0m0.502s
+sys	0m0.029s
+size=3
+
+real	0m7.666s
+user	0m4.798s
+sys	0m0.144s
+With loop bounds
+
+real	0m2.024s
+user	0m1.546s
+sys	0m0.028s
+size=4
+
+real	0m21.592s
+user	0m17.178s
+sys	0m0.221s
+With loop bounds
+
+real	0m6.357s
+user	0m5.786s
+sys	0m0.052s
+size=5
+
+real	1m17.041s
+user	1m10.643s
+sys	0m0.377s
+With loop bounds
+
+real	0m23.143s
+user	0m22.477s
+sys	0m0.084s
+size=6
+
+real	4m42.918s
+user	4m34.460s
+sys	0m0.661s
+With loop bounds
+
+real	1m32.694s
+user	1m31.914s
+sys	0m0.168s
+size=7
+
+real	15m25.187s
+user	15m14.272s
+sys	0m1.189s
+With loop bounds
+
+real	4m48.698s
+user	4m47.944s
+sys	0m0.248s
+size=8
+
+real	49m48.214s
+user	49m35.792s
+sys	0m2.399s
+With loop bounds
+
+real	17m15.968s
+user	17m14.188s
+sys	0m0.525s
+size=9
+
+real	145m11.085s
+user	144m43.691s
+sys	0m4.673s
+With loop bounds
+
+real	50m59.627s
+user	51m0.224s
+sys	0m1.338s
+checkfence/paths.sh
+./runcf: line 10: cd: checkfence/paths.sh: Not a directory
+./runcf: line 11: ./bench.sh: No such file or directory
+checkfence/seqlock
+size=1
+
+real	0m0.444s
+user	0m0.063s
+sys	0m0.005s
+Hard coded loop bound
+
+real	0m0.279s
+user	0m0.057s
+sys	0m0.009s
+size=2
+
+real	0m0.899s
+user	0m0.171s
+sys	0m0.021s
+Hard coded loop bound
+
+real	0m0.383s
+user	0m0.105s
+sys	0m0.008s
+size=3
+
+real	0m1.480s
+user	0m0.355s
+sys	0m0.065s
+Hard coded loop bound
+
+real	0m0.564s
+user	0m0.189s
+sys	0m0.024s
+size=4
+
+real	0m2.180s
+user	0m0.672s
+sys	0m0.046s
+Hard coded loop bound
+
+real	0m0.730s
+user	0m0.310s
+sys	0m0.041s
+size=5
+
+real	0m3.257s
+user	0m1.196s
+sys	0m0.078s
+Hard coded loop bound
+
+real	0m0.957s
+user	0m0.474s
+sys	0m0.027s
+size=6
+
+real	0m4.432s
+user	0m1.885s
+sys	0m0.133s
+Hard coded loop bound
+
+real	0m1.294s
+user	0m0.769s
+sys	0m0.028s
+size=7
+
+real	0m6.012s
+user	0m2.816s
+sys	0m0.113s
+Hard coded loop bound
+
+real	0m1.488s
+user	0m0.962s
+sys	0m0.025s
+size=8
+
+real	0m8.017s
+user	0m4.167s
+sys	0m0.193s
+Hard coded loop bound
+
+real	0m2.047s
+user	0m1.390s
+sys	0m0.036s
+size=9
+
+real	0m10.555s
+user	0m6.057s
+sys	0m0.227s
+Hard coded loop bound
+
+real	0m2.423s
+user	0m1.729s
+sys	0m0.068s
+size=10
+
+real	0m14.173s
+user	0m8.575s
+sys	0m0.354s
+Hard coded loop bound
+
+real	0m3.206s
+user	0m2.322s
+sys	0m0.076s
+size=15
+
+real	0m46.373s
+user	0m35.720s
+sys	0m0.828s
+Hard coded loop bound
+
+real	0m7.583s
+user	0m6.549s
+sys	0m0.124s
+size=20
+
+real	2m21.958s
+user	2m4.679s
+sys	0m1.965s
+Hard coded loop bound
+
+real	0m21.252s
+user	0m19.821s
+sys	0m0.249s
+size=25
+
+real	5m51.510s
+user	5m25.340s
+sys	0m3.696s
+Hard coded loop bound
+
+real	1m2.839s
+user	1m0.985s
+sys	0m0.380s
+size=30
+
+real	6m52.956s
+user	6m24.446s
+sys	0m4.245s
+Hard coded loop bound
+
+real	0m26.210s
+user	0m25.694s
+sys	0m0.332s
+size=35
+
+real	6m42.576s
+user	6m14.143s
+sys	0m4.377s
+Hard coded loop bound
+
+real	0m26.114s
+user	0m25.521s
+sys	0m0.413s
+size=40
+
+real	6m41.830s
+user	6m13.481s
+sys	0m4.228s
+Hard coded loop bound
+
+real	0m25.999s
+user	0m25.433s
+sys	0m0.396s
+
+

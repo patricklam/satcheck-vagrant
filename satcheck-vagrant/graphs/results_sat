@@ -1,0 +1,496 @@
+satcheck
+satcheck-precompiled/dekker
+size= 1
+Finished!
+
+real	0m0.079s
+user	0m0.003s
+sys	0m0.002s
+size= 2
+Finished!
+
+real	0m0.095s
+user	0m0.041s
+sys	0m0.009s
+size= 3
+Finished!
+
+real	0m0.173s
+user	0m0.126s
+sys	0m0.012s
+size= 4
+Finished!
+
+real	0m0.447s
+user	0m0.429s
+sys	0m0.009s
+size= 5
+Finished!
+
+real	0m1.258s
+user	0m1.278s
+sys	0m0.035s
+size= 6
+Finished!
+
+real	0m2.450s
+user	0m2.528s
+sys	0m0.060s
+size= 7
+Finished!
+
+real	0m5.146s
+user	0m5.376s
+sys	0m0.048s
+size= 8
+Finished!
+
+real	0m8.018s
+user	0m8.340s
+sys	0m0.113s
+size= 9
+Finished!
+
+real	0m1.272s
+user	0m1.981s
+sys	0m0.117s
+size= 10
+Finished!
+
+real	0m1.664s
+user	0m2.503s
+sys	0m0.156s
+size= 15
+Finished!
+
+real	0m6.639s
+user	0m10.660s
+sys	0m0.513s
+size= 20
+Finished!
+
+real	0m16.684s
+user	0m27.872s
+sys	0m1.221s
+size= 30
+Finished!
+
+real	1m1.578s
+user	1m46.859s
+sys	0m3.733s
+satcheck
+satcheck-precompiled/linuxlock
+size= 1
+Finished!
+
+real	0m0.142s
+user	0m0.000s
+sys	0m0.005s
+size= 2
+Finished!
+
+real	0m0.151s
+user	0m0.000s
+sys	0m0.006s
+size= 3
+Finished!
+
+real	0m0.152s
+user	0m0.008s
+sys	0m0.005s
+size= 4
+Finished!
+
+real	0m0.279s
+user	0m0.004s
+sys	0m0.006s
+size= 5
+Finished!
+
+real	0m0.268s
+user	0m0.005s
+sys	0m0.007s
+size= 6
+Finished!
+
+real	0m0.334s
+user	0m0.008s
+sys	0m0.006s
+size= 7
+Finished!
+
+real	0m0.300s
+user	0m0.015s
+sys	0m0.014s
+size= 8
+Finished!
+
+real	0m0.379s
+user	0m0.017s
+sys	0m0.006s
+size= 9
+Finished!
+
+real	0m0.295s
+user	0m0.023s
+sys	0m0.005s
+size= 10
+Finished!
+
+real	0m0.493s
+user	0m0.028s
+sys	0m0.008s
+size= 15
+Finished!
+
+real	0m0.601s
+user	0m0.165s
+sys	0m0.017s
+size= 20
+Finished!
+
+real	0m0.699s
+user	0m0.206s
+sys	0m0.002s
+size= 30
+Finished!
+
+real	0m1.431s
+user	0m0.594s
+sys	0m0.029s
+size= 40
+Finished!
+
+real	0m2.426s
+user	0m1.455s
+sys	0m0.045s
+size= 50
+Finished!
+
+real	0m2.558s
+user	0m2.747s
+sys	0m0.085s
+size= 60
+Finished!
+
+real	0m5.966s
+user	0m5.359s
+sys	0m0.073s
+size= 70
+Finished!
+
+real	0m8.512s
+user	0m8.613s
+sys	0m0.356s
+size= 80
+Finished!
+
+real	0m13.806s
+user	0m14.326s
+sys	0m0.303s
+size= 90
+Finished!
+
+real	0m7.847s
+user	0m9.738s
+sys	0m0.382s
+size= 100
+Finished!
+
+real	1m48.355s
+user	1m52.900s
+sys	0m0.872s
+size= 150
+Finished!
+
+real	0m46.254s
+user	0m57.045s
+sys	0m1.690s
+size= 200
+Finished!
+
+real	2m14.077s
+user	2m41.676s
+sys	0m5.338s
+size= 250
+Finished!
+
+real	4m49.403s
+user	5m52.934s
+sys	0m8.539s
+satcheck
+satcheck-precompiled/linuxrwlock
+size= 1
+Finished!
+
+real	0m0.195s
+user	0m0.000s
+sys	0m0.007s
+size= 2
+Finished!
+
+real	0m0.655s
+user	0m0.011s
+sys	0m0.005s
+size= 3
+Finished!
+
+real	0m0.945s
+user	0m0.059s
+sys	0m0.008s
+size= 4
+Finished!
+
+real	0m1.527s
+user	0m0.410s
+sys	0m0.006s
+size= 5
+Finished!
+
+real	0m2.843s
+user	0m1.393s
+sys	0m0.006s
+size= 6
+Finished!
+
+real	0m4.530s
+user	0m2.860s
+sys	0m0.015s
+size= 7
+Finished!
+
+real	0m6.056s
+user	0m4.007s
+sys	0m0.019s
+size= 8
+Finished!
+
+real	0m8.635s
+user	0m6.418s
+sys	0m0.021s
+size= 9
+Finished!
+
+real	0m13.412s
+user	0m10.639s
+sys	0m0.045s
+size= 10
+Finished!
+
+real	0m19.734s
+user	0m16.366s
+sys	0m0.028s
+size= 15
+Finished!
+
+real	1m43.509s
+user	1m39.177s
+sys	0m0.144s
+size= 20
+Finished!
+
+real	8m56.479s
+user	8m51.140s
+sys	0m0.509s
+satcheck
+satcheck-precompiled/seqlock
+size= 1
+Finished!
+
+real	0m0.436s
+user	0m0.012s
+sys	0m0.016s
+size= 2
+Finished!
+
+real	0m0.842s
+user	0m0.013s
+sys	0m0.023s
+size= 3
+Finished!
+
+real	0m0.889s
+user	0m0.046s
+sys	0m0.012s
+size= 4
+Finished!
+
+real	0m1.666s
+user	0m0.111s
+sys	0m0.039s
+size= 5
+Finished!
+
+real	0m1.772s
+user	0m0.202s
+sys	0m0.042s
+size= 6
+Finished!
+
+real	0m1.858s
+user	0m0.255s
+sys	0m0.021s
+size= 7
+Finished!
+
+real	0m2.016s
+user	0m0.353s
+sys	0m0.033s
+size= 8
+Finished!
+
+real	0m2.274s
+user	0m0.503s
+sys	0m0.050s
+size= 9
+Finished!
+
+real	0m2.827s
+user	0m0.723s
+sys	0m0.053s
+size= 10
+Finished!
+
+real	0m3.137s
+user	0m0.983s
+sys	0m0.082s
+size= 15
+Finished!
+
+real	0m6.361s
+user	0m4.398s
+sys	0m0.113s
+size= 20
+Finished!
+
+real	0m18.320s
+user	0m14.324s
+sys	0m0.173s
+size= 25
+Finished!
+
+real	1m7.093s
+user	1m2.905s
+sys	0m0.646s
+size= 30
+Finished!
+
+real	0m58.144s
+user	0m52.804s
+sys	0m0.566s
+size= 35
+Finished!
+
+real	1m21.264s
+user	1m16.977s
+sys	0m0.810s
+size= 40
+Finished!
+
+real	2m44.423s
+user	2m39.877s
+sys	0m1.499s
+size= 50
+Finished!
+
+real	5m40.483s
+user	5m40.908s
+sys	0m2.157s
+size= 60
+Finished!
+
+real	14m53.901s
+user	15m5.474s
+sys	0m3.643s
+satcheck
+satcheck-precompiled/msqueueoffset
+size= 1
+Finished!
+
+real	0m0.285s
+user	0m0.007s
+sys	0m0.021s
+size= 2
+Finished!
+
+real	0m0.404s
+user	0m0.051s
+sys	0m0.014s
+size= 3
+Finished!
+
+real	0m0.446s
+user	0m0.106s
+sys	0m0.020s
+size= 4
+Finished!
+
+real	0m0.594s
+user	0m0.322s
+sys	0m0.010s
+size= 5
+Finished!
+
+real	0m0.924s
+user	0m0.654s
+sys	0m0.052s
+size= 6
+Finished!
+
+real	0m2.112s
+user	0m1.764s
+sys	0m0.075s
+size= 7
+Finished!
+
+real	0m5.184s
+user	0m4.983s
+sys	0m0.103s
+size= 8
+Finished!
+
+real	0m8.743s
+user	0m8.865s
+sys	0m0.139s
+size= 9
+Finished!
+
+real	0m10.115s
+user	0m10.645s
+sys	0m0.116s
+size= 10
+Finished!
+
+real	0m24.532s
+user	0m25.798s
+sys	0m0.318s
+size= 15
+Finished!
+
+real	1m30.502s
+user	1m43.855s
+sys	0m1.355s
+size= 20
+Finished!
+
+real	19m36.175s
+user	20m43.342s
+sys	0m5.922s
+size= 30
+Finished!
+
+real	25m56.700s
+user	29m40.532s
+sys	0m20.186s
+size= 40
+Finished!
+
+real	123m47.211s
+user	144m13.752s
+sys	2m26.534s
+size= 50
+Finished!
+
+real	176m53.241s
+user	204m1.016s
+sys	3m15.525s

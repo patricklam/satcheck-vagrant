@@ -1,0 +1,818 @@
+nohup: ignoring input
+nidhugg_sc
+nidhugg/backuptransform.java
+./runnidd: line 8: cd: nidhugg/backuptransform.java: Not a directory
+./runnidd: line 9: ./bench.sh: No such file or directory
+nidhugg/dekker
+size= 1
+Trace count: 12 (also 0 sleepset blocked)
+No errors were detected.
+WARNING: Unable to infer the input language for input source code.
+WARNING: Guessing C.
+* Nidhuggc: $ /usr/bin/clang -o /tmp/tmpicdxd1ei/tmpmu9s6d9b.ll -S -emit-llvm -g -O3 -std=c++11 ./dekker-fences.cc
+* Nidhuggc: $ /home/bdemsky/nidhugg/bin/nidhugg -sc /tmp/tmpicdxd1ei/tmpmu9s6d9b.ll
+Total wall-clock time: 0.06 s
+
+real	0m0.110s
+user	0m0.074s
+sys	0m0.016s
+size= 2
+Trace count: 241 (also 0 sleepset blocked)
+No errors were detected.
+WARNING: Unable to infer the input language for input source code.
+WARNING: Guessing C.
+* Nidhuggc: $ /usr/bin/clang -o /tmp/tmpzjkp4ul_/tmpx2voms_l.ll -S -emit-llvm -g -O3 -std=c++11 ./dekker-fences.cc
+* Nidhuggc: $ /home/bdemsky/nidhugg/bin/nidhugg -sc /tmp/tmpzjkp4ul_/tmpx2voms_l.ll
+Total wall-clock time: 0.08 s
+
+real	0m0.131s
+user	0m0.090s
+sys	0m0.020s
+size= 3
+Trace count: 4590 (also 0 sleepset blocked)
+No errors were detected.
+WARNING: Unable to infer the input language for input source code.
+WARNING: Guessing C.
+* Nidhuggc: $ /usr/bin/clang -o /tmp/tmpwh9hsrb1/tmpigfvqtgv.ll -S -emit-llvm -g -O3 -std=c++11 ./dekker-fences.cc
+* Nidhuggc: $ /home/bdemsky/nidhugg/bin/nidhugg -sc /tmp/tmpwh9hsrb1/tmpigfvqtgv.ll
+Total wall-clock time: 0.76 s
+
+real	0m0.807s
+user	0m0.758s
+sys	0m0.028s
+size= 4
+Trace count: 91616 (also 0 sleepset blocked)
+No errors were detected.
+WARNING: Unable to infer the input language for input source code.
+WARNING: Guessing C.
+* Nidhuggc: $ /usr/bin/clang -o /tmp/tmp6_ib9ks9/tmpknqfgiky.ll -S -emit-llvm -g -O3 -std=c++11 ./dekker-fences.cc
+* Nidhuggc: $ /home/bdemsky/nidhugg/bin/nidhugg -sc /tmp/tmp6_ib9ks9/tmpknqfgiky.ll
+Total wall-clock time: 18.55 s
+
+real	0m18.590s
+user	0m18.405s
+sys	0m0.188s
+size= 5
+Trace count: 1885018 (also 0 sleepset blocked)
+No errors were detected.
+WARNING: Unable to infer the input language for input source code.
+WARNING: Guessing C.
+* Nidhuggc: $ /usr/bin/clang -o /tmp/tmpsn7txwce/tmp6nsekq7s.ll -S -emit-llvm -g -O3 -std=c++11 ./dekker-fences.cc
+* Nidhuggc: $ /home/bdemsky/nidhugg/bin/nidhugg -sc /tmp/tmpsn7txwce/tmp6nsekq7s.ll
+Total wall-clock time: 446.58 s
+
+real	7m26.630s
+user	7m20.896s
+sys	0m6.242s
+size= 6
+Trace count: 39556109 (also 0 sleepset blocked)
+No errors were detected.
+WARNING: Unable to infer the input language for input source code.
+WARNING: Guessing C.
+* Nidhuggc: $ /usr/bin/clang -o /tmp/tmpp6ilb4bx/tmp0b4uu27x.ll -S -emit-llvm -g -O3 -std=c++11 ./dekker-fences.cc
+* Nidhuggc: $ /home/bdemsky/nidhugg/bin/nidhugg -sc /tmp/tmpp6ilb4bx/tmp0b4uu27x.ll
+Total wall-clock time: 11046.48 s
+
+real	184m6.532s
+user	181m49.556s
+sys	2m30.699s
+nidhugg/linuxlock
+size= 1
+Trace count: 4 (also 0 sleepset blocked)
+No errors were detected.
+WARNING: Unable to infer the input language for input source code.
+WARNING: Guessing C.
+* Nidhuggc: $ /usr/bin/clang -o /tmp/tmp9r3_pbrt/tmp1fwrg2xa.ll -S -emit-llvm -g -O3 -std=c++11 ./linuxlocks.cc
+* Nidhuggc: $ /home/bdemsky/nidhugg/bin/nidhugg -sc /tmp/tmp9r3_pbrt/tmp1fwrg2xa.ll
+Total wall-clock time: 0.05 s
+
+real	0m0.116s
+user	0m0.074s
+sys	0m0.017s
+size= 2
+Trace count: 26 (also 0 sleepset blocked)
+No errors were detected.
+WARNING: Unable to infer the input language for input source code.
+WARNING: Guessing C.
+* Nidhuggc: $ /usr/bin/clang -o /tmp/tmp15i4zcl1/tmptccnibwc.ll -S -emit-llvm -g -O3 -std=c++11 ./linuxlocks.cc
+* Nidhuggc: $ /home/bdemsky/nidhugg/bin/nidhugg -sc /tmp/tmp15i4zcl1/tmptccnibwc.ll
+Total wall-clock time: 0.05 s
+
+real	0m0.094s
+user	0m0.072s
+sys	0m0.007s
+size= 3
+Trace count: 192 (also 0 sleepset blocked)
+No errors were detected.
+WARNING: Unable to infer the input language for input source code.
+WARNING: Guessing C.
+* Nidhuggc: $ /usr/bin/clang -o /tmp/tmpxj3bsf_t/tmpdkh4rkbc.ll -S -emit-llvm -g -O3 -std=c++11 ./linuxlocks.cc
+* Nidhuggc: $ /home/bdemsky/nidhugg/bin/nidhugg -sc /tmp/tmpxj3bsf_t/tmpdkh4rkbc.ll
+Total wall-clock time: 0.07 s
+
+real	0m0.113s
+user	0m0.079s
+sys	0m0.020s
+size= 4
+Trace count: 1500 (also 0 sleepset blocked)
+No errors were detected.
+WARNING: Unable to infer the input language for input source code.
+WARNING: Guessing C.
+* Nidhuggc: $ /usr/bin/clang -o /tmp/tmpz9tck7s6/tmp17xnt10z.ll -S -emit-llvm -g -O3 -std=c++11 ./linuxlocks.cc
+* Nidhuggc: $ /home/bdemsky/nidhugg/bin/nidhugg -sc /tmp/tmpz9tck7s6/tmp17xnt10z.ll
+Total wall-clock time: 0.23 s
+
+real	0m0.269s
+user	0m0.246s
+sys	0m0.004s
+size= 5
+Trace count: 12092 (also 0 sleepset blocked)
+No errors were detected.
+WARNING: Unable to infer the input language for input source code.
+WARNING: Guessing C.
+* Nidhuggc: $ /usr/bin/clang -o /tmp/tmpp26tel0g/tmpe0ygkqsl.ll -S -emit-llvm -g -O3 -std=c++11 ./linuxlocks.cc
+* Nidhuggc: $ /home/bdemsky/nidhugg/bin/nidhugg -sc /tmp/tmpp26tel0g/tmpe0ygkqsl.ll
+Total wall-clock time: 1.66 s
+
+real	0m1.712s
+user	0m1.658s
+sys	0m0.036s
+size= 6
+Trace count: 99442 (also 0 sleepset blocked)
+No errors were detected.
+WARNING: Unable to infer the input language for input source code.
+WARNING: Guessing C.
+* Nidhuggc: $ /usr/bin/clang -o /tmp/tmpsrx077ic/tmpyo7n5_3v.ll -S -emit-llvm -g -O3 -std=c++11 ./linuxlocks.cc
+* Nidhuggc: $ /home/bdemsky/nidhugg/bin/nidhugg -sc /tmp/tmpsrx077ic/tmpyo7n5_3v.ll
+Total wall-clock time: 15.03 s
+
+real	0m15.078s
+user	0m14.896s
+sys	0m0.167s
+size= 7
+Trace count: 829168 (also 0 sleepset blocked)
+No errors were detected.
+WARNING: Unable to infer the input language for input source code.
+WARNING: Guessing C.
+* Nidhuggc: $ /usr/bin/clang -o /tmp/tmp3j7vzp4n/tmpn8q_08v1.ll -S -emit-llvm -g -O3 -std=c++11 ./linuxlocks.cc
+* Nidhuggc: $ /home/bdemsky/nidhugg/bin/nidhugg -sc /tmp/tmp3j7vzp4n/tmpn8q_08v1.ll
+Total wall-clock time: 142.34 s
+
+real	2m22.377s
+user	2m21.050s
+sys	0m1.485s
+size= 8
+Trace count: 6984234 (also 0 sleepset blocked)
+No errors were detected.
+WARNING: Unable to infer the input language for input source code.
+WARNING: Guessing C.
+* Nidhuggc: $ /usr/bin/clang -o /tmp/tmpexruvr27/tmpo96rcma4.ll -S -emit-llvm -g -O3 -std=c++11 ./linuxlocks.cc
+* Nidhuggc: $ /home/bdemsky/nidhugg/bin/nidhugg -sc /tmp/tmpexruvr27/tmpo96rcma4.ll
+Total wall-clock time: 1324.08 s
+
+real	22m4.144s
+user	21m51.405s
+sys	0m14.349s
+size= 9
+Trace count: 59287740 (also 0 sleepset blocked)
+No errors were detected.
+WARNING: Unable to infer the input language for input source code.
+WARNING: Guessing C.
+* Nidhuggc: $ /usr/bin/clang -o /tmp/tmpv9x6q0s7/tmp_tiz9f6k.ll -S -emit-llvm -g -O3 -std=c++11 ./linuxlocks.cc
+* Nidhuggc: $ /home/bdemsky/nidhugg/bin/nidhugg -sc /tmp/tmpv9x6q0s7/tmp_tiz9f6k.ll
+Total wall-clock time: 12570.11 s
+
+real	209m30.167s
+user	207m33.719s
+sys	2m12.044s
+nidhugg/linuxrwlock
+size= 1
+Trace count: 6 (also 0 sleepset blocked)
+No errors were detected.
+WARNING: Unable to infer the input language for input source code.
+WARNING: Guessing C.
+* Nidhuggc: $ /usr/bin/clang -o /tmp/tmpv9qkuvag/tmppwflla_q.ll -S -emit-llvm -g -O3 -std=c++11 ./linuxrwlocks.cc
+* Nidhuggc: $ /home/bdemsky/nidhugg/bin/nidhugg -sc /tmp/tmpv9qkuvag/tmppwflla_q.ll
+Total wall-clock time: 0.07 s
+
+real	0m0.118s
+user	0m0.083s
+sys	0m0.008s
+size= 2
+Trace count: 70 (also 0 sleepset blocked)
+No errors were detected.
+WARNING: Unable to infer the input language for input source code.
+WARNING: Guessing C.
+* Nidhuggc: $ /usr/bin/clang -o /tmp/tmpek_xe5ty/tmpx8ndk524.ll -S -emit-llvm -g -O3 -std=c++11 ./linuxrwlocks.cc
+* Nidhuggc: $ /home/bdemsky/nidhugg/bin/nidhugg -sc /tmp/tmpek_xe5ty/tmpx8ndk524.ll
+Total wall-clock time: 0.06 s
+
+real	0m0.115s
+user	0m0.081s
+sys	0m0.020s
+size= 3
+Trace count: 924 (also 0 sleepset blocked)
+No errors were detected.
+WARNING: Unable to infer the input language for input source code.
+WARNING: Guessing C.
+* Nidhuggc: $ /usr/bin/clang -o /tmp/tmp40k3f3e7/tmpj4yacwog.ll -S -emit-llvm -g -O3 -std=c++11 ./linuxrwlocks.cc
+* Nidhuggc: $ /home/bdemsky/nidhugg/bin/nidhugg -sc /tmp/tmp40k3f3e7/tmpj4yacwog.ll
+Total wall-clock time: 0.14 s
+
+real	0m0.186s
+user	0m0.150s
+sys	0m0.013s
+size= 4
+Trace count: 12870 (also 0 sleepset blocked)
+No errors were detected.
+WARNING: Unable to infer the input language for input source code.
+WARNING: Guessing C.
+* Nidhuggc: $ /usr/bin/clang -o /tmp/tmpj4qf1qjs/tmpbpx2mbfn.ll -S -emit-llvm -g -O3 -std=c++11 ./linuxrwlocks.cc
+* Nidhuggc: $ /home/bdemsky/nidhugg/bin/nidhugg -sc /tmp/tmpj4qf1qjs/tmpbpx2mbfn.ll
+Total wall-clock time: 1.15 s
+
+real	0m1.192s
+user	0m1.153s
+sys	0m0.024s
+size= 5
+Trace count: 184756 (also 0 sleepset blocked)
+No errors were detected.
+WARNING: Unable to infer the input language for input source code.
+WARNING: Guessing C.
+* Nidhuggc: $ /usr/bin/clang -o /tmp/tmp59_aw7_c/tmpzgo3mgyy.ll -S -emit-llvm -g -O3 -std=c++11 ./linuxrwlocks.cc
+* Nidhuggc: $ /home/bdemsky/nidhugg/bin/nidhugg -sc /tmp/tmp59_aw7_c/tmpzgo3mgyy.ll
+Total wall-clock time: 18.00 s
+
+real	0m18.034s
+user	0m17.682s
+sys	0m0.359s
+size= 6
+Trace count: 2704156 (also 0 sleepset blocked)
+No errors were detected.
+WARNING: Unable to infer the input language for input source code.
+WARNING: Guessing C.
+* Nidhuggc: $ /usr/bin/clang -o /tmp/tmpf5z3pj5b/tmpi7a9t_5l.ll -S -emit-llvm -g -O3 -std=c++11 ./linuxrwlocks.cc
+* Nidhuggc: $ /home/bdemsky/nidhugg/bin/nidhugg -sc /tmp/tmpf5z3pj5b/tmpi7a9t_5l.ll
+Total wall-clock time: 291.07 s
+
+real	4m51.121s
+user	4m45.403s
+sys	0m6.055s
+size= 7
+Trace count: 40116600 (also 0 sleepset blocked)
+No errors were detected.
+WARNING: Unable to infer the input language for input source code.
+WARNING: Guessing C.
+* Nidhuggc: $ /usr/bin/clang -o /tmp/tmp_k7tvml6/tmp4ih7cvys.ll -S -emit-llvm -g -O3 -std=c++11 ./linuxrwlocks.cc
+* Nidhuggc: $ /home/bdemsky/nidhugg/bin/nidhugg -sc /tmp/tmp_k7tvml6/tmp4ih7cvys.ll
+Total wall-clock time: 5000.52 s
+
+real	83m20.573s
+user	81m43.468s
+sys	1m43.290s
+nidhugg/msqueue
+size= 1
+Trace count: 4 (also 0 sleepset blocked)
+No errors were detected.
+WARNING: Unable to infer the input language for input source code.
+WARNING: Guessing C.
+* Nidhuggc: $ /usr/bin/clang -o /tmp/tmpcge1hoaq/tmpd56lze5y.ll -S -emit-llvm -g -O3 -std=c++11 ./ms-queue_simple.cc
+* Nidhuggc: $ /home/bdemsky/nidhugg/bin/nidhugg -sc /tmp/tmpcge1hoaq/tmpd56lze5y.ll
+Total wall-clock time: 0.08 s
+
+real	0m0.129s
+user	0m0.086s
+sys	0m0.020s
+size= 2
+Trace count: 24 (also 0 sleepset blocked)
+No errors were detected.
+WARNING: Unable to infer the input language for input source code.
+WARNING: Guessing C.
+* Nidhuggc: $ /usr/bin/clang -o /tmp/tmpgn2wrjjo/tmpngs4csp6.ll -S -emit-llvm -g -O3 -std=c++11 ./ms-queue_simple.cc
+* Nidhuggc: $ /home/bdemsky/nidhugg/bin/nidhugg -sc /tmp/tmpgn2wrjjo/tmpngs4csp6.ll
+Total wall-clock time: 0.07 s
+
+real	0m0.111s
+user	0m0.085s
+sys	0m0.012s
+size= 3
+Trace count: 147 (also 0 sleepset blocked)
+No errors were detected.
+WARNING: Unable to infer the input language for input source code.
+WARNING: Guessing C.
+* Nidhuggc: $ /usr/bin/clang -o /tmp/tmpsgrx9r_s/tmp71tulywn.ll -S -emit-llvm -g -O3 -std=c++11 ./ms-queue_simple.cc
+* Nidhuggc: $ /home/bdemsky/nidhugg/bin/nidhugg -sc /tmp/tmpsgrx9r_s/tmp71tulywn.ll
+Total wall-clock time: 0.11 s
+
+real	0m0.141s
+user	0m0.108s
+sys	0m0.017s
+size= 4
+Trace count: 898 (also 0 sleepset blocked)
+No errors were detected.
+WARNING: Unable to infer the input language for input source code.
+WARNING: Guessing C.
+* Nidhuggc: $ /usr/bin/clang -o /tmp/tmppibfprpc/tmpa28iv2gj.ll -S -emit-llvm -g -O3 -std=c++11 ./ms-queue_simple.cc
+* Nidhuggc: $ /home/bdemsky/nidhugg/bin/nidhugg -sc /tmp/tmppibfprpc/tmpa28iv2gj.ll
+Total wall-clock time: 0.41 s
+
+real	0m0.454s
+user	0m0.415s
+sys	0m0.017s
+size= 5
+Trace count: 5455 (also 0 sleepset blocked)
+No errors were detected.
+WARNING: Unable to infer the input language for input source code.
+WARNING: Guessing C.
+* Nidhuggc: $ /usr/bin/clang -o /tmp/tmp3mx_fvv_/tmp9dlfla_4.ll -S -emit-llvm -g -O3 -std=c++11 ./ms-queue_simple.cc
+* Nidhuggc: $ /home/bdemsky/nidhugg/bin/nidhugg -sc /tmp/tmp3mx_fvv_/tmp9dlfla_4.ll
+Total wall-clock time: 2.55 s
+
+real	0m2.608s
+user	0m2.555s
+sys	0m0.032s
+size= 6
+Trace count: 32946 (also 0 sleepset blocked)
+No errors were detected.
+WARNING: Unable to infer the input language for input source code.
+WARNING: Guessing C.
+* Nidhuggc: $ /usr/bin/clang -o /tmp/tmpldqvkn13/tmpb2ri_46s.ll -S -emit-llvm -g -O3 -std=c++11 ./ms-queue_simple.cc
+* Nidhuggc: $ /home/bdemsky/nidhugg/bin/nidhugg -sc /tmp/tmpldqvkn13/tmpb2ri_46s.ll
+Total wall-clock time: 16.77 s
+
+real	0m16.827s
+user	0m16.651s
+sys	0m0.180s
+size= 7
+Trace count: 197917 (also 0 sleepset blocked)
+No errors were detected.
+WARNING: Unable to infer the input language for input source code.
+WARNING: Guessing C.
+* Nidhuggc: $ /usr/bin/clang -o /tmp/tmptjf3mm75/tmpimsmk_31.ll -S -emit-llvm -g -O3 -std=c++11 ./ms-queue_simple.cc
+* Nidhuggc: $ /home/bdemsky/nidhugg/bin/nidhugg -sc /tmp/tmptjf3mm75/tmpimsmk_31.ll
+Total wall-clock time: 110.05 s
+
+real	1m50.096s
+user	1m48.870s
+sys	0m1.341s
+size= 8
+Trace count: 1183216 (also 0 sleepset blocked)
+No errors were detected.
+WARNING: Unable to infer the input language for input source code.
+WARNING: Guessing C.
+* Nidhuggc: $ /usr/bin/clang -o /tmp/tmpuinsqg1e/tmprnj_plxu.ll -S -emit-llvm -g -O3 -std=c++11 ./ms-queue_simple.cc
+* Nidhuggc: $ /home/bdemsky/nidhugg/bin/nidhugg -sc /tmp/tmpuinsqg1e/tmprnj_plxu.ll
+Total wall-clock time: 725.13 s
+
+real	12m5.191s
+user	11m57.559s
+sys	0m8.482s
+nidhugg/path.sh
+./runnidd: line 8: cd: nidhugg/path.sh: Not a directory
+./runnidd: line 9: ./bench.sh: No such file or directory
+nidhugg/seqlock
+size= 1
+Trace count: 49 (also 5 sleepset blocked)
+No errors were detected.
+WARNING: Unable to infer the input language for input source code.
+WARNING: Guessing C.
+* Nidhuggc: $ /usr/bin/clang -o /tmp/tmp3c6o6qhl/tmpyzvjz5e9.ll -S -emit-llvm -g -O3 -std=c++11 ./seqlock.cc
+* Nidhuggc: $ /home/bdemsky/nidhugg/bin/nidhugg -sc /tmp/tmp3c6o6qhl/tmpyzvjz5e9.ll
+Total wall-clock time: 0.06 s
+
+real	0m0.101s
+user	0m0.073s
+sys	0m0.012s
+size= 2
+Trace count: 6724 (also 486 sleepset blocked)
+No errors were detected.
+WARNING: Unable to infer the input language for input source code.
+WARNING: Guessing C.
+* Nidhuggc: $ /usr/bin/clang -o /tmp/tmpwau_snmo/tmpdtok9lqq.ll -S -emit-llvm -g -O3 -std=c++11 ./seqlock.cc
+* Nidhuggc: $ /home/bdemsky/nidhugg/bin/nidhugg -sc /tmp/tmpwau_snmo/tmpdtok9lqq.ll
+Total wall-clock time: 1.07 s
+
+real	0m1.122s
+user	0m1.074s
+sys	0m0.033s
+size= 3
+Trace count: 1227664 (also 79200 sleepset blocked)
+No errors were detected.
+WARNING: Unable to infer the input language for input source code.
+WARNING: Guessing C.
+* Nidhuggc: $ /usr/bin/clang -o /tmp/tmpi0l3bpwx/tmpb9yfww8n.ll -S -emit-llvm -g -O3 -std=c++11 ./seqlock.cc
+* Nidhuggc: $ /home/bdemsky/nidhugg/bin/nidhugg -sc /tmp/tmpi0l3bpwx/tmpb9yfww8n.ll
+Total wall-clock time: 236.58 s
+
+real	3m56.624s
+user	3m53.807s
+sys	0m3.074s
+nidhugg/transform.class
+./runnidd: line 8: cd: nidhugg/transform.class: Not a directory
+./runnidd: line 9: ./bench.sh: No such file or directory
+nidhugg/transform.java
+./runnidd: line 8: cd: nidhugg/transform.java: Not a directory
+./runnidd: line 9: ./bench.sh: No such file or directory
+nidhugg_tso
+nidhugg/backuptransform.java
+./runnidd: line 17: cd: nidhugg/backuptransform.java: Not a directory
+./runnidd: line 18: ./benchtso.sh: No such file or directory
+nidhugg/dekker
+size= 1
+Trace count: 16 (also 0 sleepset blocked)
+No errors were detected.
+WARNING: Unable to infer the input language for input source code.
+WARNING: Guessing C.
+* Nidhuggc: $ /usr/bin/clang -o /tmp/tmptt2yqazv/tmp_uq0n9p8.ll -S -emit-llvm -g -O3 -std=c++11 ./dekker-fences.cc
+* Nidhuggc: $ /home/bdemsky/nidhugg/bin/nidhugg -tso /tmp/tmptt2yqazv/tmp_uq0n9p8.ll
+Total wall-clock time: 0.07 s
+
+real	0m0.126s
+user	0m0.086s
+sys	0m0.019s
+size= 2
+Trace count: 1103 (also 80 sleepset blocked)
+No errors were detected.
+WARNING: Unable to infer the input language for input source code.
+WARNING: Guessing C.
+* Nidhuggc: $ /usr/bin/clang -o /tmp/tmp98m04rij/tmp5cfpua2n.ll -S -emit-llvm -g -O3 -std=c++11 ./dekker-fences.cc
+* Nidhuggc: $ /home/bdemsky/nidhugg/bin/nidhugg -tso /tmp/tmp98m04rij/tmp5cfpua2n.ll
+Total wall-clock time: 0.20 s
+
+real	0m0.247s
+user	0m0.225s
+sys	0m0.008s
+size= 3
+Trace count: 103143 (also 9531 sleepset blocked)
+No errors were detected.
+WARNING: Unable to infer the input language for input source code.
+WARNING: Guessing C.
+* Nidhuggc: $ /usr/bin/clang -o /tmp/tmpbpultv3w/tmpbia5z_dh.ll -S -emit-llvm -g -O3 -std=c++11 ./dekker-fences.cc
+* Nidhuggc: $ /home/bdemsky/nidhugg/bin/nidhugg -tso /tmp/tmpbpultv3w/tmpbia5z_dh.ll
+Total wall-clock time: 18.54 s
+
+real	0m18.578s
+user	0m18.337s
+sys	0m0.248s
+size= 4
+Trace count: 11566606 (also 1158076 sleepset blocked)
+No errors were detected.
+WARNING: Unable to infer the input language for input source code.
+WARNING: Guessing C.
+* Nidhuggc: $ /usr/bin/clang -o /tmp/tmpyubd_1u2/tmp0061fvqm.ll -S -emit-llvm -g -O3 -std=c++11 ./dekker-fences.cc
+* Nidhuggc: $ /home/bdemsky/nidhugg/bin/nidhugg -tso /tmp/tmpyubd_1u2/tmp0061fvqm.ll
+Total wall-clock time: 2731.28 s
+
+real	45m31.315s
+user	45m3.252s
+sys	0m31.301s
+size= 5
+./benchtso.sh: line 6: 11196 Killed                  nidhuggc -O3 -std=c++11 -- -tso ./dekker-fences.cc
+
+real	292m49.820s
+user	0m0.078s
+sys	0m0.012s
+size= 6
+./benchtso.sh: line 6: 11728 Killed                  nidhuggc -O3 -std=c++11 -- -tso ./dekker-fences.cc
+
+real	0m18.037s
+user	0m0.049s
+sys	0m0.015s
+nidhugg/linuxlock
+size= 1
+Trace count: 4 (also 0 sleepset blocked)
+No errors were detected.
+WARNING: Unable to infer the input language for input source code.
+WARNING: Guessing C.
+* Nidhuggc: $ /usr/bin/clang -o /tmp/tmpe3q18pdm/tmpgtvmjz57.ll -S -emit-llvm -g -O3 -std=c++11 ./linuxlocks.cc
+* Nidhuggc: $ /home/bdemsky/nidhugg/bin/nidhugg -tso /tmp/tmpe3q18pdm/tmpgtvmjz57.ll
+Total wall-clock time: 0.05 s
+
+real	0m0.086s
+user	0m0.068s
+sys	0m0.004s
+size= 2
+Trace count: 26 (also 0 sleepset blocked)
+No errors were detected.
+WARNING: Unable to infer the input language for input source code.
+WARNING: Guessing C.
+* Nidhuggc: $ /usr/bin/clang -o /tmp/tmpft9ghj51/tmpk2hjohz_.ll -S -emit-llvm -g -O3 -std=c++11 ./linuxlocks.cc
+* Nidhuggc: $ /home/bdemsky/nidhugg/bin/nidhugg -tso /tmp/tmpft9ghj51/tmpk2hjohz_.ll
+Total wall-clock time: 0.06 s
+
+real	0m0.103s
+user	0m0.074s
+sys	0m0.015s
+size= 3
+Trace count: 192 (also 0 sleepset blocked)
+No errors were detected.
+WARNING: Unable to infer the input language for input source code.
+WARNING: Guessing C.
+* Nidhuggc: $ /usr/bin/clang -o /tmp/tmpbhnb8r0d/tmp4afvjf8k.ll -S -emit-llvm -g -O3 -std=c++11 ./linuxlocks.cc
+* Nidhuggc: $ /home/bdemsky/nidhugg/bin/nidhugg -tso /tmp/tmpbhnb8r0d/tmp4afvjf8k.ll
+Total wall-clock time: 0.08 s
+
+real	0m0.135s
+user	0m0.109s
+sys	0m0.009s
+size= 4
+Trace count: 1500 (also 0 sleepset blocked)
+No errors were detected.
+WARNING: Unable to infer the input language for input source code.
+WARNING: Guessing C.
+* Nidhuggc: $ /usr/bin/clang -o /tmp/tmphkuni6x8/tmp1wvz9j5m.ll -S -emit-llvm -g -O3 -std=c++11 ./linuxlocks.cc
+* Nidhuggc: $ /home/bdemsky/nidhugg/bin/nidhugg -tso /tmp/tmphkuni6x8/tmp1wvz9j5m.ll
+Total wall-clock time: 0.24 s
+
+real	0m0.273s
+user	0m0.248s
+sys	0m0.010s
+size= 5
+Trace count: 12092 (also 0 sleepset blocked)
+No errors were detected.
+WARNING: Unable to infer the input language for input source code.
+WARNING: Guessing C.
+* Nidhuggc: $ /usr/bin/clang -o /tmp/tmpry2p_kgd/tmpgbdyob9w.ll -S -emit-llvm -g -O3 -std=c++11 ./linuxlocks.cc
+* Nidhuggc: $ /home/bdemsky/nidhugg/bin/nidhugg -tso /tmp/tmpry2p_kgd/tmpgbdyob9w.ll
+Total wall-clock time: 1.79 s
+
+real	0m1.821s
+user	0m1.769s
+sys	0m0.032s
+size= 6
+Trace count: 99442 (also 0 sleepset blocked)
+No errors were detected.
+WARNING: Unable to infer the input language for input source code.
+WARNING: Guessing C.
+* Nidhuggc: $ /usr/bin/clang -o /tmp/tmpf4334qt_/tmpe4bqhgg_.ll -S -emit-llvm -g -O3 -std=c++11 ./linuxlocks.cc
+* Nidhuggc: $ /home/bdemsky/nidhugg/bin/nidhugg -tso /tmp/tmpf4334qt_/tmpe4bqhgg_.ll
+Total wall-clock time: 16.01 s
+
+real	0m16.042s
+user	0m15.869s
+sys	0m0.176s
+size= 7
+Trace count: 829168 (also 0 sleepset blocked)
+No errors were detected.
+WARNING: Unable to infer the input language for input source code.
+WARNING: Guessing C.
+* Nidhuggc: $ /usr/bin/clang -o /tmp/tmp9rlp3pcw/tmpb44jru1x.ll -S -emit-llvm -g -O3 -std=c++11 ./linuxlocks.cc
+* Nidhuggc: $ /home/bdemsky/nidhugg/bin/nidhugg -tso /tmp/tmp9rlp3pcw/tmpb44jru1x.ll
+Total wall-clock time: 147.62 s
+
+real	2m27.658s
+user	2m26.121s
+sys	0m1.702s
+size= 8
+Trace count: 6984234 (also 0 sleepset blocked)
+No errors were detected.
+WARNING: Unable to infer the input language for input source code.
+WARNING: Guessing C.
+* Nidhuggc: $ /usr/bin/clang -o /tmp/tmp_ngi2ws5/tmpj6g219wh.ll -S -emit-llvm -g -O3 -std=c++11 ./linuxlocks.cc
+* Nidhuggc: $ /home/bdemsky/nidhugg/bin/nidhugg -tso /tmp/tmp_ngi2ws5/tmpj6g219wh.ll
+Total wall-clock time: 1392.48 s
+
+real	23m12.539s
+user	23m0.170s
+sys	0m14.053s
+size= 9
+Trace count: 59287740 (also 0 sleepset blocked)
+No errors were detected.
+WARNING: Unable to infer the input language for input source code.
+WARNING: Guessing C.
+* Nidhuggc: $ /usr/bin/clang -o /tmp/tmpldtgktnh/tmp1o5kyrr5.ll -S -emit-llvm -g -O3 -std=c++11 ./linuxlocks.cc
+* Nidhuggc: $ /home/bdemsky/nidhugg/bin/nidhugg -tso /tmp/tmpldtgktnh/tmp1o5kyrr5.ll
+Total wall-clock time: 13335.94 s
+
+real	222m15.986s
+user	220m17.466s
+sys	2m15.049s
+nidhugg/linuxrwlock
+size= 1
+Trace count: 6 (also 0 sleepset blocked)
+No errors were detected.
+WARNING: Unable to infer the input language for input source code.
+WARNING: Guessing C.
+* Nidhuggc: $ /usr/bin/clang -o /tmp/tmprz7tfacc/tmpxgpqcr_7.ll -S -emit-llvm -g -O3 -std=c++11 ./linuxrwlocks.cc
+* Nidhuggc: $ /home/bdemsky/nidhugg/bin/nidhugg -tso /tmp/tmprz7tfacc/tmpxgpqcr_7.ll
+Total wall-clock time: 0.05 s
+
+real	0m0.101s
+user	0m0.058s
+sys	0m0.012s
+size= 2
+Trace count: 70 (also 0 sleepset blocked)
+No errors were detected.
+WARNING: Unable to infer the input language for input source code.
+WARNING: Guessing C.
+* Nidhuggc: $ /usr/bin/clang -o /tmp/tmpidjmvxki/tmp17qciscn.ll -S -emit-llvm -g -O3 -std=c++11 ./linuxrwlocks.cc
+* Nidhuggc: $ /home/bdemsky/nidhugg/bin/nidhugg -tso /tmp/tmpidjmvxki/tmp17qciscn.ll
+Total wall-clock time: 0.06 s
+
+real	0m0.112s
+user	0m0.081s
+sys	0m0.017s
+size= 3
+Trace count: 924 (also 0 sleepset blocked)
+No errors were detected.
+WARNING: Unable to infer the input language for input source code.
+WARNING: Guessing C.
+* Nidhuggc: $ /usr/bin/clang -o /tmp/tmpwfqzk3jq/tmpj0_qz1x4.ll -S -emit-llvm -g -O3 -std=c++11 ./linuxrwlocks.cc
+* Nidhuggc: $ /home/bdemsky/nidhugg/bin/nidhugg -tso /tmp/tmpwfqzk3jq/tmpj0_qz1x4.ll
+Total wall-clock time: 0.12 s
+
+real	0m0.156s
+user	0m0.128s
+sys	0m0.012s
+size= 4
+Trace count: 12870 (also 0 sleepset blocked)
+No errors were detected.
+WARNING: Unable to infer the input language for input source code.
+WARNING: Guessing C.
+* Nidhuggc: $ /usr/bin/clang -o /tmp/tmpop18yjy_/tmpu1hth5lb.ll -S -emit-llvm -g -O3 -std=c++11 ./linuxrwlocks.cc
+* Nidhuggc: $ /home/bdemsky/nidhugg/bin/nidhugg -tso /tmp/tmpop18yjy_/tmpu1hth5lb.ll
+Total wall-clock time: 1.20 s
+
+real	0m1.250s
+user	0m1.184s
+sys	0m0.051s
+size= 5
+Trace count: 184756 (also 0 sleepset blocked)
+No errors were detected.
+WARNING: Unable to infer the input language for input source code.
+WARNING: Guessing C.
+* Nidhuggc: $ /usr/bin/clang -o /tmp/tmpk_o5xgv0/tmpb9rxquoc.ll -S -emit-llvm -g -O3 -std=c++11 ./linuxrwlocks.cc
+* Nidhuggc: $ /home/bdemsky/nidhugg/bin/nidhugg -tso /tmp/tmpk_o5xgv0/tmpb9rxquoc.ll
+Total wall-clock time: 18.49 s
+
+real	0m18.529s
+user	0m18.137s
+sys	0m0.396s
+size= 6
+Trace count: 2704156 (also 0 sleepset blocked)
+No errors were detected.
+WARNING: Unable to infer the input language for input source code.
+WARNING: Guessing C.
+* Nidhuggc: $ /usr/bin/clang -o /tmp/tmp0ilu1icw/tmpckq__xj1.ll -S -emit-llvm -g -O3 -std=c++11 ./linuxrwlocks.cc
+* Nidhuggc: $ /home/bdemsky/nidhugg/bin/nidhugg -tso /tmp/tmp0ilu1icw/tmpckq__xj1.ll
+Total wall-clock time: 301.04 s
+
+real	5m1.083s
+user	4m55.348s
+sys	0m6.079s
+size= 7
+Trace count: 40116600 (also 0 sleepset blocked)
+No errors were detected.
+WARNING: Unable to infer the input language for input source code.
+WARNING: Guessing C.
+* Nidhuggc: $ /usr/bin/clang -o /tmp/tmpm30h9qim/tmp4lrijwig.ll -S -emit-llvm -g -O3 -std=c++11 ./linuxrwlocks.cc
+* Nidhuggc: $ /home/bdemsky/nidhugg/bin/nidhugg -tso /tmp/tmpm30h9qim/tmp4lrijwig.ll
+Total wall-clock time: 5144.51 s
+
+real	85m44.555s
+user	84m5.721s
+sys	1m45.156s
+nidhugg/msqueue
+size= 1
+Trace count: 4 (also 0 sleepset blocked)
+No errors were detected.
+WARNING: Unable to infer the input language for input source code.
+WARNING: Guessing C.
+* Nidhuggc: $ /usr/bin/clang -o /tmp/tmph2v3kg77/tmpfcdjmzaw.ll -S -emit-llvm -g -O3 -std=c++11 ./ms-queue_simple.cc
+* Nidhuggc: $ /home/bdemsky/nidhugg/bin/nidhugg -tso /tmp/tmph2v3kg77/tmpfcdjmzaw.ll
+Total wall-clock time: 0.08 s
+
+real	0m0.142s
+user	0m0.100s
+sys	0m0.019s
+size= 2
+Trace count: 24 (also 0 sleepset blocked)
+No errors were detected.
+WARNING: Unable to infer the input language for input source code.
+WARNING: Guessing C.
+* Nidhuggc: $ /usr/bin/clang -o /tmp/tmp4x2510ma/tmpb_icqzln.ll -S -emit-llvm -g -O3 -std=c++11 ./ms-queue_simple.cc
+* Nidhuggc: $ /home/bdemsky/nidhugg/bin/nidhugg -tso /tmp/tmp4x2510ma/tmpb_icqzln.ll
+Total wall-clock time: 0.08 s
+
+real	0m0.128s
+user	0m0.096s
+sys	0m0.016s
+size= 3
+Trace count: 147 (also 0 sleepset blocked)
+No errors were detected.
+WARNING: Unable to infer the input language for input source code.
+WARNING: Guessing C.
+* Nidhuggc: $ /usr/bin/clang -o /tmp/tmpt_h_f8a9/tmp_n5hiqhz.ll -S -emit-llvm -g -O3 -std=c++11 ./ms-queue_simple.cc
+* Nidhuggc: $ /home/bdemsky/nidhugg/bin/nidhugg -tso /tmp/tmpt_h_f8a9/tmp_n5hiqhz.ll
+Total wall-clock time: 0.12 s
+
+real	0m0.175s
+user	0m0.142s
+sys	0m0.016s
+size= 4
+Trace count: 898 (also 0 sleepset blocked)
+No errors were detected.
+WARNING: Unable to infer the input language for input source code.
+WARNING: Guessing C.
+* Nidhuggc: $ /usr/bin/clang -o /tmp/tmpgdzvw6v6/tmpz_cf8u_8.ll -S -emit-llvm -g -O3 -std=c++11 ./ms-queue_simple.cc
+* Nidhuggc: $ /home/bdemsky/nidhugg/bin/nidhugg -tso /tmp/tmpgdzvw6v6/tmpz_cf8u_8.ll
+Total wall-clock time: 0.39 s
+
+real	0m0.443s
+user	0m0.412s
+sys	0m0.016s
+size= 5
+Trace count: 5455 (also 0 sleepset blocked)
+No errors were detected.
+WARNING: Unable to infer the input language for input source code.
+WARNING: Guessing C.
+* Nidhuggc: $ /usr/bin/clang -o /tmp/tmpe3yzseqx/tmp2v06vjlu.ll -S -emit-llvm -g -O3 -std=c++11 ./ms-queue_simple.cc
+* Nidhuggc: $ /home/bdemsky/nidhugg/bin/nidhugg -tso /tmp/tmpe3yzseqx/tmp2v06vjlu.ll
+Total wall-clock time: 2.52 s
+
+real	0m2.572s
+user	0m2.509s
+sys	0m0.050s
+size= 6
+Trace count: 32946 (also 0 sleepset blocked)
+No errors were detected.
+WARNING: Unable to infer the input language for input source code.
+WARNING: Guessing C.
+* Nidhuggc: $ /usr/bin/clang -o /tmp/tmpp0vkd4g_/tmpeukc_pwa.ll -S -emit-llvm -g -O3 -std=c++11 ./ms-queue_simple.cc
+* Nidhuggc: $ /home/bdemsky/nidhugg/bin/nidhugg -tso /tmp/tmpp0vkd4g_/tmpeukc_pwa.ll
+Total wall-clock time: 17.45 s
+
+real	0m17.482s
+user	0m17.320s
+sys	0m0.167s
+size= 7
+Trace count: 197917 (also 0 sleepset blocked)
+No errors were detected.
+WARNING: Unable to infer the input language for input source code.
+WARNING: Guessing C.
+* Nidhuggc: $ /usr/bin/clang -o /tmp/tmpx9oaox3r/tmpu5kioldp.ll -S -emit-llvm -g -O3 -std=c++11 ./ms-queue_simple.cc
+* Nidhuggc: $ /home/bdemsky/nidhugg/bin/nidhugg -tso /tmp/tmpx9oaox3r/tmpu5kioldp.ll
+Total wall-clock time: 115.62 s
+
+real	1m55.657s
+user	1m54.486s
+sys	0m1.289s
+size= 8
+Trace count: 1183216 (also 0 sleepset blocked)
+No errors were detected.
+WARNING: Unable to infer the input language for input source code.
+WARNING: Guessing C.
+* Nidhuggc: $ /usr/bin/clang -o /tmp/tmpg6mlwakc/tmpc8zip3tt.ll -S -emit-llvm -g -O3 -std=c++11 ./ms-queue_simple.cc
+* Nidhuggc: $ /home/bdemsky/nidhugg/bin/nidhugg -tso /tmp/tmpg6mlwakc/tmpc8zip3tt.ll
+Total wall-clock time: 752.74 s
+
+real	12m32.786s
+user	12m25.415s
+sys	0m8.263s
+nidhugg/path.sh
+./runnidd: line 17: cd: nidhugg/path.sh: Not a directory
+./runnidd: line 18: ./benchtso.sh: No such file or directory
+nidhugg/seqlock
+./benchtso.sh: line 1: 0#!/bin/bash: No such file or directory
+size= 1
+Trace count: 49 (also 5 sleepset blocked)
+No errors were detected.
+WARNING: Unable to infer the input language for input source code.
+WARNING: Guessing C.
+* Nidhuggc: $ /usr/bin/clang -o /tmp/tmp9g7_vb9f/tmp8u5qfvp5.ll -S -emit-llvm -g -O3 -std=c++11 ./seqlock.cc
+* Nidhuggc: $ /home/bdemsky/nidhugg/bin/nidhugg -tso /tmp/tmp9g7_vb9f/tmp8u5qfvp5.ll
+Total wall-clock time: 0.06 s
+
+real	0m0.111s
+user	0m0.073s
+sys	0m0.020s
+size= 2
+Trace count: 6724 (also 486 sleepset blocked)
+No errors were detected.
+WARNING: Unable to infer the input language for input source code.
+WARNING: Guessing C.
+* Nidhuggc: $ /usr/bin/clang -o /tmp/tmpy_hlp85g/tmpi3t8tob6.ll -S -emit-llvm -g -O3 -std=c++11 ./seqlock.cc
+* Nidhuggc: $ /home/bdemsky/nidhugg/bin/nidhugg -tso /tmp/tmpy_hlp85g/tmpi3t8tob6.ll
+Total wall-clock time: 1.13 s
+
+real	0m1.176s
+user	0m1.141s
+sys	0m0.020s
+size= 3
+Trace count: 1227664 (also 79200 sleepset blocked)
+No errors were detected.
+WARNING: Unable to infer the input language for input source code.
+WARNING: Guessing C.
+* Nidhuggc: $ /usr/bin/clang -o /tmp/tmp9xkzw3wp/tmpohqpgxqa.ll -S -emit-llvm -g -O3 -std=c++11 ./seqlock.cc
+* Nidhuggc: $ /home/bdemsky/nidhugg/bin/nidhugg -tso /tmp/tmp9xkzw3wp/tmpohqpgxqa.ll
+Total wall-clock time: 249.55 s
+
+real	4m9.588s
+user	4m6.648s
+sys	0m3.208s
+nidhugg/transform.class
+./runnidd: line 17: cd: nidhugg/transform.class: Not a directory
+./runnidd: line 18: ./benchtso.sh: No such file or directory
+nidhugg/transform.java
+./runnidd: line 17: cd: nidhugg/transform.java: Not a directory
+./runnidd: line 18: ./benchtso.sh: No such file or directory
